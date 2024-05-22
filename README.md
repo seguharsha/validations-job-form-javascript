@@ -1,6 +1,5 @@
 # validations-job-form-javascript
-Job Form Project
-Project Overview
+## Project Overview
 Welcome to our project! This project involves creating a basic job form using HTML, CSS, and JavaScript. It is designed to help users understand and implement front-end development techniques, particularly focusing on the following concepts:
 
 HTML Form Elements: Understanding the structure and functionality of form tags.
@@ -30,7 +29,7 @@ CSS
 Grid Layout: Using CSS grid to structure the form layout.
 Flexbox: Using flexbox to align form elements.
 Styling: Custom styles for input fields, labels, buttons, and form layout.
-JavaScript
+## JavaScript
 The JavaScript file includes:
 
 Event Handling: Adding event listeners to form elements to handle events like submit and input.
