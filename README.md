@@ -40,6 +40,3 @@ Email Validation: Ensuring the email follows the standard email format.
 Phone Number Validation: Ensuring the phone number contains only digits and is of a specific length.
 Learning Outcomes
 
-Reporting issues
-Suggesting new features
-Submitting pull requests
