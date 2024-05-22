@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./index.css">
+
+       
+    </head>
+    <body>
+      
+
+       <div class="peddodu">
+        <form id="formxal">
+            <div class="chinnodu">
+                
+                <div class="header">
+                    <h2>Job Application Form</h2>
+                    <p>Please Fill Out The Form Below To Submit Your Job Application!</p>
+                    <div style="width: 100%; background-color: black; height: 1%;" ></div>
+                </div>
+                
+                    <div class="name first section">
+                        
+                    <label style="display: block; margin-bottom: 10px;" id="fname">Name<span> *</span></label>
+                    <input for="fname"  id="ffname" required >
+                    <h5>First Name</h5>
+                </div>
+                
+                <div class="name last section">
+                    <br>
+                    <label style="display: block; margin-bottom: 10px; "></label>
+                      <input   id="lname" required>
+                        <h5>Last Name</h5>
+                </div>
+
+                
+                <div class="email section">
+                    <label style="display: block; margin-bottom: 10px;" >Email<span> *</span></label>
+                    <input placeholder="ex:myname@example.com" required type="email" required id="emai">
+                    <h4>example@example.com</h4>
+                </div>
+                <div class="phone section">
+                    <label style="display: block; margin-bottom: 10px; ">Phone Number<span> *</span></label>
+                                        <input type="tel" placeholder="000-000-000" required id="number">
+                </div>
+            
+            
+            <div class="gender">
+                <h3>Gender</h3><br>
+            <input type="radio" name="genderop" id="male" value="male">
+                <label >Male</label>
+                    <br>
+                <input type="radio" name="genderop" id="female" value="female">
+                <label>Female</label>
+                    <br>
+                <input type="radio" name="genderop" id="transgender" value="Transgender">
+                <label>Transgender</label>
+            </div>
+            
+            <div class="city">
+                <label for="city" style="display: block; margin-bottom: 10px; ">City</label>
+                <select name="city" id="cityop" required>
+                    <option value="" disabled selected hidden>Please Select</option>
+                    <option value="Hyderabad" name="citygroup">Hyderabad</option>
+                    <option value="Kurnool" name="citygroup">Kurnool </option>
+                    <option value="Chennai" name="citygroup">Chennai</option>
+                    <option value="Delhi" name="citygroup">Delhi</option>
+                  </select>            
+            </div>
+
+            <div class="applied section">
+                <label for="appliedpostion" style="display: block; margin-bottom: 10px; "> Applied Position</label>
+                <input type="text" placeholder="" required id="appliedpostion">
+            </div>
+
+            <div class="dob">
+                <h4 style="display: block; margin-bottom: 10px;">Earliest Possible Start Date</h4>
+
+                    <input type="date" id="Test_DatetimeLocall" placeholder="MM-DD-YYYY" >
+                    <h4>Date</h4>
+                </div>
+       
+            <div class="interviewdate">
+                <h4 style="display: block; margin-bottom: 10px;">Preferred Interview Date</h4>
+
+                    <input type="date" id="Test_DatetimeLocal" placeholder="MM-DD-YYYY" onchange="datefinder()">
+            </div>
+            
+            <div class="calenderright">
+                <div class="datesection" style="width:100%; height: 30%; display: flex; gap:10%">
+               
+
+                        <h4 id="datepicker" style="background-color: transparent;" >Monday,March 27</h4>                     
+                     
+                    <div class="arrows">
+                     
+                        <div class="smalll">
+                            <button class="small" ><</button>
+                        </div>
+                     
+                        <div class="greatt">
+                                <button class="great" >></button>
+                       </div>
+
+                    </div>
+                </div>
+                <div class="btngp">
+                    <button class="one bttn">11:30</button>
+                    <button class="two bttn">12:30</button>
+                    <button class="three bttn">1:30</button>
+                    <button class="four bttn">4:30</button>
+                    <button class="five bttn">5:30</button>
+                    <button class="six bttn">6:30</button>
+                </div>
+            </div>
+                
+            <div class="upload">
+                <label for="" style="display: block; padding-left: 3%;">Upload Resume<span> *</span></label>
+                    <br><br>
+            <div class="example">
+                <div class="uploadsection" style="background-color: rgb(252, 250, 250);">
+                    <img src="https://www.freeiconspng.com/uploads/upload-icon-30.png" class="uploadimg">
+                    
+                    <div class="origuploadsection">
+                        <input type="file">
+                    </div>
+                    <div class="uploadsectiontext">
+                        <h5>Drag and drop items</h5>
+                    </div>
+                    
+            </div> 
+            </div>
+                <div style="width: 100%; margin-top: 5%; background-color: black; height: 1%;" ></div>
+            </div>
+
+            <div class="apply">
+            <input value="Apply" type="Submit" class="applybutton" id="ss" onclick="dp()">
+                <!-- <button  type="Submit" class="applybutton" id="ss">Apply</button> -->
+            </div>
+        </div>
+    </form>
+
+    </div>
+        <script src="index.js"></script>
+</body>
+</html>
